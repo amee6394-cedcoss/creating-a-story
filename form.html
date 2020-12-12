@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="story.css">
+    <script src="main.js"></script>
+   
+    <title>
+        form
+    </title>
+</head>
+
+<body>
+
+    <div id="logo">
+        <img src="st.png" style="width: 150px;">
+    </div>
+    <section class="st2">
+        <p style="font-size: 20px;"><b>COMPLETE THE FORM-<br> COMPLETE THE STORY!</b></p>
+        <hr>
+        <form action="story.html">
+            <div>
+                Animal: <input class="mar" id="animal"  type="text" placeholder="" required>
+            </div>
+            <div>
+                Another Animal: <input id="another" class="mar" type="text" placeholder="" >
+            </div>
+            <div>
+                One More Animal: <input class="mar" id="Onemore" type="text" placeholder="">
+            </div>
+            <div>
+                Adjective (past tense): <input class="mar" id="adjective" type="text" placeholder="">
+            </div>
+            <div>
+                Verb (ends in-ing): <input id="verb" class="mar" type="text" placeholder="">
+            </div>
+            <div>
+                Number: <input class="mar" id="num" type="text" placeholder="">
+            </div>
+            <div>
+                Yes or No:
+                 <label for="Yes">Yes</label>
+                <input  class="mar" id="new1" type="radio" value="Yes" name="no">
+                <label for="No">No</label>
+                <input  class="mar"  type="radio" value="No" name="no">
+               
+            </div>
+            <div>
+                Relative speed (ends in-er): <select id="speed">
+                    <option>choose..</option>
+                    <option value="q">Quicker</option>
+                    <option value="s">slower</option>
+
+                </select>
+            </div>
+            <div>
+                Motivation Quote: <input  class="mar" id="example1" type="text" />
+            </div>
+            <div>
+               <label>Meaningful Massege: </label><br> <input class="mar" id="moral" style="height: 120px; border:2px solid blue" type="text">
+            </div>
+            <div>
+                <button class="mar" onclick="myfunction();" type="submit"><a>form my story!</a></button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

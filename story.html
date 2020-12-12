@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Story
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="story.css">
+    <script scr="main.js"></script>
+   
+</head>
+
+<body>
+
+    <div id="logo">
+        <img src="st.png" style="width: 150px;">
+    </div>
+    <section class="st1">
+    <div >
+        <h2> The <u><span class="tiger" style="color: blue;"></span></u> And The <u><span class="lion" style="color: blue;"></span></u></h2>
+
+        <p> A  <u><span class="tiger" style="color: blue;"></span></u>  was making fun of the  <u><span class="lion" style="color: blue;"></span></u> one day for<br> being so slow.</p>
+        <p>"Do you ever get anywhere?" he asked with a<br> mocking luagh.</p>
+        <p><u><span id="decision" style="color: blue;"></span></u> replied the <u><span class="lion" style="color: blue;"></span></u>, "but I get there <span style="color: blue;" id="speed1"></span> than<br> they think. I'll run you a race and prove it." </p>
+        <p><u><span class="tiger" style="color: blue;"></span></u> was much <u><span id="alarmed" style="color: blue;"></span></u> at the idea of running a<br> race with the <u><span class="lion" style="color: blue;"></span></u> , but
+            for the fun of the thing he<br> agreed. So the <u><span id="dog" style="color: blue;"></span></u> . who had consented to act as<br> judge, marked
+            the distance yelled.</p>
+            <u><span id="example11" style="color: blue;">null</span></u>
+
+        <p> The <u><span class="tiger" style="color: blue;"></span></u> was soon far out of sight, and to make<br> the <u><span class="lion" style="color: blue;"></span></u> feel very deeply how
+            ridiculous it was for<br> him to try a race with a <u><span class="tiger" style="color: blue;"></span></u> . he went off the course<br> to practice
+            <u><span class="verb" style="color: blue;"></span></u> for <u><span id="num11" style="color: blue;"></span></u> hours until the <u><span class="lion" style="color: blue;"></span></u> should catch up.</p>
+
+        <p> The  <u><span class="lion" style="color: blue;"></span></u> meanwhile kept going slowly but steadily,<br> and, after a time, passed the place where
+            the <u><span class="tiger" style="color: blue;"></span></u> was <u><span class="verb" style="color: blue;"></span></u> .<br> The  <u><span class="tiger" style="color: blue;"></span></u> was so caught up in <u><span class="verb" style="color: blue;"></span></u>  ;
+            and<br> when at last he did stop, the  <u><span class="lion" style="color: blue;"></span></u> was near the<br> goal. The <u><span class="tiger" style="color: blue;"></span></u> now ran his
+            swiftest, but he could<br> not overtake the <u><span class="lion" style="color: blue;"></span></u> in time </p>
+        <h2> Moral of the story:</h2>
+        <u><i><span id="moral"></span></i></u>
+        <hr>
+        <button><a href="form.html"> start over</a></button>
+        <button><a href="storyreload.html"> original story </a></button>
+        </div>
+        </section>
+        <script>
+            var e= localStorage.getItem("textvalue");
+             var x=document.getElementsByClassName("tiger");
+            for(i=0;i<8;i++){
+              x[i].innerHTML=e;
+            }
+            var f= localStorage.getItem("another1");
+             var y=document.getElementsByClassName("lion");
+            for(i=0;i<9;i++){
+              y[i].innerHTML=f;
+            }
+            var g= localStorage.getItem("verb1");
+             var z=document.getElementsByClassName("verb");
+            for(i=0;i<2;i++){
+              z[i].innerHTML=g;
+            }
+            var b=localStorage.getItem("new11");
+            document.getElementById("decision").innerHTML=b;
+            var d=localStorage.getItem("t2");
+            document.getElementById("speed1").innerHTML=d;
+            document.getElementById("alarmed").innerHTML=localStorage.getItem("adjective1");
+            document.getElementById("dog").innerHTML=localStorage.getItem("onemore1");
+            document.getElementById("example11").innerHTML=localStorage.getItem("exam");
+            document.getElementById("num11").innerHTML=localStorage.getItem("num1");
+            document.getElementById("moral").innerHTML=localStorage.getItem("moral1");
+ </script>
+</body>
+
+</html>

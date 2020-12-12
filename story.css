@@ -1,0 +1,35 @@
+body{
+    background-color:  #ffb71e;
+}
+#logo{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.st1{
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-color: #fff0d0;
+    overflow-y: scroll;
+    height:690px;
+}
+.st2{
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    background-color: #fff0d0;
+    height:auto;
+}
+.mar{
+    margin: 1%;
+    border-radius: 6px; 
+    width: 120px;  
+}
